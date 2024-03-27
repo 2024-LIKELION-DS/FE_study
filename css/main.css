@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* 헤더 */
+header {
+    height: 10vh;
+    width: 72vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.semiNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.semiNav span {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btns img {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+/* 나브바 */
+nav {
+    padding: 0 15vw;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #444444;
+}
+
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6 {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0vw;
+    padding: 0 1vw;
+    height: 25vh;
+}
+
+.nav1 a,
+.nav2 a,
+.nav3 a,
+.nav4 a,
+.nav5 a,
+.nav6 a {
+    margin: 3px;
+    text-decoration: none;
+    color: #444444;
+}
+
+.nav1 a:hover,
+.nav2 a:hover,
+.nav3 a:hover,
+.nav4 a:hover,
+.nav5 a:hover,
+.nav6 a:hover {
+    color: #d93c2b;
+}
+
+.hrDiv {
+    width: 1px;
+    background-color: #a6a6a6;
+    height: 25vh;
+}
+
+.wrap {
+    margin: 3vh 0;
+    padding: 0 14vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* section-post */
+.secBox {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.sec1 {
+    margin-bottom: 2vh;
+}
+
+.categoryName {
+    border: 1px solid #a6a6a6;
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.recom {
+    border: 1px solid #a6a6a6;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    color: #444444;
+    font-size: small;
+    margin-bottom: 1vh;
+}
+
+.recom-q {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.recom-q span {
+    background-color: #f2fefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    margin: 0 5px;
+    border-radius: 8px;
+}
+
+.questImg {
+    width: 30px;
+    margin: 0 7px;
+}
+
+.hotImg {
+    width: 25px;
+    margin: 0 7px;
+}
+
+.recom-h {
+    display: flex;
+    flex-direction: row;
+}
+
+.recom-h span {
+    background-color: #fcf3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    margin: 0 5px;
+    border-radius: 8px;
+}
+
+.addBtn {
+    border: 1px solid #a6a6a6;
+    font-size: small;
+    background-color: #f9f9f9;
+    color: #a6a6a6;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.pen {
+    width: 15px;
+    height: 15px;
+}
+
+.postBox {
+    padding: 0;
+    border: 1px solid #a6a6a6;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border-bottom: 1px solid #a6a6a6;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-title {
+    font-weight: bold;
+}
+
+.post-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #a6a6a6;
+    margin-top: 5px;
+    font-size: small;
+}
+
+.like {
+    width: 15px;
+    margin-right: 5px;
+}
+
+#like-count {
+    color: #d93c2b;
+    margin-right: 5px;
+}
+
+.reply {
+    width: 15px;
+    margin-right: 5px;
+}
+
+#reply-count {
+    color: #89c7c9;
+    margin-right: 5px;
+}
+
+.previewImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+
+/* section-search */
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    border: 1px solid #444444;
+    background: transparent url(/img/search.png) no-repeat right 10px center;
+    background-size: 16px 16px;
+    padding: 5px 30px 5px 5px;
+    border-radius: 4px;
+}
+
+#category-select,
+.search input[type="text"] {
+    border: none;
+    color: #444444;
+}
+
+#category-select:focus,
+.search input[type="text"]:focus {
+    outline: 0;
+}
+
+.search input[type="text"]::placeholder {
+    color: #444444;
+}
+
+.nextBtn {
+    border: 1px solid #d93c2b;
+    color: #d93c2b;
+    padding: 8px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.next {
+    height: 12px;
+    margin-left: 5px;
+}
+
+/* article */
+article {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.cateBox {
+    border: 1px solid #a6a6a6;
+    padding: 10px;
+    margin-bottom: 1vh;
+    background-color: #f9f9f9;
+    margin: 0 0 1vh 0;
+    padding: 0;
+}
+
+.cateTitle {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #305ea9;
+    border-bottom: 1px solid #a6a6a6;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.catePost {
+    border-bottom: 1px solid #a6a6a6;
+    margin: 0;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.catePost-title {
+    font-weight: bold;
+}
+
+.catePost-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #a6a6a6;
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.catePost-like {
+    width: 10px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.catePost-reply {
+    width: 10px;
+    margin-right: 3px;
+}
+
+/* footer */
+footer {
+    height: 10vh;
+    width: 72vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    align-items: center;
+}
+
+footer div {
+    font-size: small;
+    color: #a6a6a6;
+}
+
+footer span:hover {
+    color: #d93c2b;
+}
