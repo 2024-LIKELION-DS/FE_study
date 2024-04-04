@@ -27,8 +27,8 @@ p {
   width: 100%;
 }
 
-@media (hover: hover) or (width >= 780px) {
-  html {
+@media (width >= 780px) {
+  body {
     width: 100vw;
     height: 100vh;
     display: flex;
