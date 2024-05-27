@@ -238,7 +238,6 @@ nav {
 
 .addBtn {
     border: 1px solid #a6a6a6;
-    font-size: small;
     background-color: #f9f9f9;
     color: #a6a6a6;
     padding: 10px;
@@ -247,11 +246,147 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1vh;
+    height: 50px;
 }
 
 .pen {
     width: 15px;
     height: 15px;
+}
+
+/* 새 글 작성 시 드러나는 폼 */
+.addForm {
+    border: 1px solid #a6a6a6;
+    color: #a6a6a6;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    padding: 0;
+}
+
+.addTitle {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-bottom: 1px solid #a6a6a6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.addTitle:focus {
+    outline: none;
+}
+
+.addTitle::placeholder {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.addText {
+    height: 350px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    resize: none;
+}
+
+.addText:focus {
+    outline: none;
+}
+
+.addText::placeholder {
+    font-size: small;
+}
+
+.addBtns {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #a6a6a6;
+}
+
+.addBtns > div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hashTag {
+    background-image: url("/img/container.articles.write.hashtag.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.imgPlus {
+    background-image: url("/img/container.articles.write.attach.png");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.imgPlus input {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.checkQuestBox {
+    background-image: url("/img/container.articles.write.question.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.checkAnonBox {
+    background-image: url("/img/container.articles.write.anonym.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.submitBtn {
+    background-image: url("/img/container.articles.write.submit.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
+    background-color: #f91f15;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    float: right;
 }
 
 .postBox {
