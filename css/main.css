@@ -65,7 +65,7 @@ header {
 .mainname {
     font-size: small;
     font-weight: bold;
-    color: #d93c2b;
+    color: #f91f15;
 }
 
 .subname {
@@ -99,8 +99,8 @@ header {
 /* 나브바 */
 nav {
     padding: 0 15vw;
-    border-top: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     background-color: #f9f9f9;
     display: flex;
     flex-direction: row;
@@ -122,7 +122,7 @@ nav {
     margin: 2vh 0vw;
     padding: 0 1vw;
     height: 25vh;
-    border-left: 1px solid #a6a6a6;
+    border-left: 1px solid #e3e3e3;
 }
 
 .nav6 {
@@ -132,8 +132,8 @@ nav {
     margin: 2vh 0vw;
     padding: 0 1vw;
     height: 25vh;
-    border-left: 1px solid #a6a6a6;
-    border-right: 1px solid #a6a6a6;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
 }
 
 .nav1 a,
@@ -153,7 +153,7 @@ nav {
 .nav4 a:hover,
 .nav5 a:hover,
 .nav6 a:hover {
-    color: #d93c2b;
+    color: #f91f15;
 }
 
 .wrap {
@@ -176,7 +176,7 @@ nav {
 }
 
 .categoryName {
-    border: 1px solid #a6a6a6;
+    border: 1px solid #e3e3e3;
     font-size: 23px;
     font-weight: bolder;
     padding: 10px;
@@ -186,7 +186,7 @@ nav {
 }
 
 .recom {
-    border: 1px solid #a6a6a6;
+    border: 1px solid #e3e3e3;
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
@@ -237,7 +237,7 @@ nav {
 }
 
 .addBtn {
-    border: 1px solid #a6a6a6;
+    border: 1px solid #e3e3e3;
     background-color: #f9f9f9;
     color: #a6a6a6;
     padding: 10px;
@@ -256,8 +256,8 @@ nav {
 
 /* 새 글 작성 시 드러나는 폼 */
 .addForm {
-    border: 1px solid #a6a6a6;
-    color: #a6a6a6;
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
     padding: 10px;
     display: none;
     flex-direction: column;
@@ -269,7 +269,7 @@ nav {
     width: 100%;
     height: 50px;
     padding: 15px;
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #e3e3e3;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -301,6 +301,22 @@ nav {
     font-size: small;
 }
 
+.itsQ {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e3e3e3;
+    display: none;
+}
+
+.itsQ div {
+    padding: 8px;
+    background-color: #edfffe;
+    border-radius: 8px;
+    color: #05bcbc;
+    margin: 15px;
+    font-size: small;
+}
+
 .addBtns {
     width: 100%;
     height: 40px;
@@ -308,7 +324,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #a6a6a6;
+    border-top: 1px solid #e3e3e3;
 }
 
 .addBtns > div {
@@ -391,13 +407,13 @@ nav {
 
 .postBox {
     padding: 0;
-    border: 1px solid #a6a6a6;
+    border: 1px solid #e3e3e3;
     display: flex;
     flex-direction: column;
 }
 
 .post {
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #e3e3e3;
     margin: 0;
     padding: 15px;
     display: flex;
@@ -431,7 +447,7 @@ nav {
 }
 
 #like-count {
-    color: #d93c2b;
+    color: #f91f15;
     margin-right: 5px;
 }
 
@@ -483,8 +499,8 @@ nav {
 }
 
 .nextBtn {
-    border: 1px solid #d93c2b;
-    color: #d93c2b;
+    border: 1px solid #f91f15;
+    color: #f91f15;
     padding: 8px;
     text-decoration: none;
     display: flex;
@@ -507,7 +523,7 @@ article {
 }
 
 .cateBox {
-    border: 1px solid #a6a6a6;
+    border: 1px solid #e3e3e3;
     padding: 10px;
     margin-bottom: 1vh;
     background-color: #f9f9f9;
@@ -519,14 +535,14 @@ article {
     font-size: 15px;
     font-weight: bolder;
     color: #305ea9;
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #e3e3e3;
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
 .catePost {
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #e3e3e3;
     margin: 0;
     padding: 10px 15px;
     display: flex;
@@ -576,7 +592,7 @@ footer div {
 }
 
 footer span:hover {
-    color: #d93c2b;
+    color: #f91f15;
 }
 
 @media all and (min-width: 641px) {

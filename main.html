@@ -127,6 +127,13 @@
                         class="addText"
                         spellcheck="false"
                     ></textarea>
+                    <div class="itsQ">
+                        <div>
+                            질문 글을 작성하면 게시판 상단에 일정 기간 동안 노출되어, 더욱 빠르게 답변을 얻을 수 있게 됩니다.
+                            <br>또한, 다른 학우들이 정성껏 작성한 답변을 유지하기 위해, 댓글이 달린 이후에는 
+                            <b>글을 수정 및 삭제할 수 없습니다.</b>
+                        </div>
+                    </div>
                     <div class="addBtns">
                         <div>
                             <button class="hashTag"></button>
@@ -202,17 +209,17 @@
                         <div class="post">
                             <div class="postText">
                                 <div class="post-title">
-                                    네가 "깃아 미안해" 했잖아?
+                                    어른 사자 밟으실 수
                                 </div>
                                 <div class="post-content">
-                                    그럼 깃 충돌 이딴거 안생겼어
+                                    수수수수수퍼노바
                                 </div>
                                 <div class="post-detail">
                                     <img class="like" src="img/like.png" />
                                     <div id="like-count">10</div>
                                     <img class="reply" src="img/reply.png" />
                                     <div id="reply-count">17</div>
-                                    | 10분전 | 익명
+                                    | 40분전 | 익명
                                 </div>
                             </div>
                             <img class="previewImg" src="img/preview.png" />
@@ -220,17 +227,17 @@
                         <div class="post">
                             <div class="postText">
                                 <div class="post-title">
-                                    네가 "깃아 미안해" 했잖아?
+                                    아기 사자 업고 튀어
                                 </div>
                                 <div class="post-content">
-                                    그럼 깃 충돌 이딴거 안생겼어
+                                    네? 저를요?
                                 </div>
                                 <div class="post-detail">
                                     <img class="like" src="img/like.png" />
                                     <div id="like-count">10</div>
                                     <img class="reply" src="img/reply.png" />
                                     <div id="reply-count">17</div>
-                                    | 10분전 | 익명
+                                    | 50분전 | 익명
                                 </div>
                             </div>
                             <img class="previewImg" src="img/preview.png" />
@@ -335,13 +342,17 @@
             <div>직업정보제공사업 신고번호 : J1204020230008</div>
         </footer>
         <script>
+            const itsQ = document.querySelector(".itsQ");
+
             function changeQ(e) {
                 event.preventDefault();
                 const button = e.target;
                 if (button.classList.contains("active")) {
                     button.style.backgroundImage = "url('/img/container.articles.write.question.png')";
+                    itsQ.style.display = "none"
                 } else {
                     button.style.backgroundImage = "url('/img/container.articles.write.question.active.png')";
+                    itsQ.style.display = "inline"
                 }
                 button.classList.toggle("active");
             }
